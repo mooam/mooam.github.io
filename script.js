@@ -31,18 +31,18 @@ const Liquid = React.createClass({ displayName: "Liquid",
     let stateOfMatter;
     // If temp is on/below freezing, it's a solid 
     if (this.props.temperature <= this.props.config.freezing) {
-      stateOfMatter = 'Solid';
+      stateOfMatter = 'ของแข็ง';
       // if temp is on/above boiling, it's a gas
     } else if (this.props.temperature >= this.props.config.boiling) {
-      stateOfMatter = 'Gas';
+      stateOfMatter = 'แก๊ส';
       // otherwise it's just a liquid
     } else {
-      stateOfMatter = 'Liquid';
+      stateOfMatter = 'ของเหลว';
     }
 
     return /*#__PURE__*/(
       React.createElement("div", null, /*#__PURE__*/
-      React.createElement("p", null, "At ", this.props.temperature, "\xB0C, ", /*#__PURE__*/React.createElement("span", { className: "label label-info" }, this.props.config.name), " is considered to be a \"", stateOfMatter, "\" state of matter.")));
+      React.createElement("p", null, "ที่อุณภูมิ ", this.props.temperature, "\xB0C, ", /*#__PURE__*/React.createElement("span", { className: "label label-info" }, this.props.config.name), " อยู่ในสถานะ \"", stateOfMatter)));
 
 
   } });
@@ -115,12 +115,12 @@ const StateList = React.createClass({ displayName: "StateList",
 
 // Create an array of objects to hold name, freezing & boiling points
 let water = {
-  name: "Water",
+  name: "น้ำ",
   freezing: 0,
   boiling: 100 };
 
 let ethanol = {
-  name: "Ethanol",
+  name: "เอทานอล",
   freezing: -114.6,
   boiling: 78.4 };
 
