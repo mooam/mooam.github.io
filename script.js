@@ -115,12 +115,12 @@ const StateList = React.createClass({ displayName: "StateList",
 
 // Create an array of objects to hold name, freezing & boiling points
 let water = {
-  name: "น้ำ",
+  name: "Water",
   freezing: 0,
   boiling: 100 };
 
 let ethanol = {
-  name: "เอทานอล",
+  name: "Ethanol",
   freezing: -114.6,
   boiling: 78.4 };
 
