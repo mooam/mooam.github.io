@@ -115,47 +115,47 @@ const StateList = React.createClass({ displayName: "StateList",
 
 // Create an array of objects to hold name, freezing & boiling points
 let water = {
-  name: "Water",
+  name: "น้ำ",
   freezing: 0,
   boiling: 100 };
 
 let ethanol = {
-  name: "Ethanol",
+  name: "เอทานอล",
   freezing: -114.6,
   boiling: 78.4 };
 
 let benzene = {
-  name: "Benzene",
+  name: "เบนซีน",
   freezing: 5.5,
   boiling: 80.1 };
 
 let acetone = {
-  name: "Acetone",
+  name: "อะซิโตน",
   freezing: -94.8,
   boiling: 56.2 };
 
 let lauricAcid = {
-  name: "Lauric Acid",
+  name: "กรดลอริก",
   freezing: 44,
   boiling: 298.9 };
 
 let diethylEther = {
-  name: "Diethyl ether",
+  name: "ไดเอทิล อีเทอร์",
   freezing: -116.2,
   boiling: 34.5 };
 
 let camphor = {
-  name: "Camphor",
+  name: "การบูร",
   freezing: 179,
   boiling: 204 };
 
 let naphthalene = {
-  name: "Naphthalene",
+  name: "แนพธาลีน",
   freezing: 80.2,
   boiling: 217.9 };
 
 let phenol = {
-  name: "Phenol",
+  name: "ฟีนอล",
   freezing: 43,
   boiling: 181.75 };
 
