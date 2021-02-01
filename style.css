@@ -1,5 +1,5 @@
 body {
-  background-color: #2980b9;
+  background-color: linear-gradient(red, yellow);
 }
 
 .temp-text {
