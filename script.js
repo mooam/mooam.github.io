@@ -91,7 +91,7 @@ const StateList = React.createClass({ displayName: "StateList",
       React.createElement("div", { className: "col-sm-4" }, /*#__PURE__*/
       React.createElement("h2", null, "Solid"), /*#__PURE__*/
       React.createElement("div", { className: "beaker solid" },
-      gases)), /*#__PURE__*/
+      solids)), /*#__PURE__*/
 
 
       React.createElement("div", { className: "col-sm-4" }, /*#__PURE__*/
@@ -103,7 +103,7 @@ const StateList = React.createClass({ displayName: "StateList",
       React.createElement("div", { className: "col-sm-4" }, /*#__PURE__*/
       React.createElement("h2", null, "Gas"), /*#__PURE__*/
       React.createElement("div", { className: "beaker gas" },
-      solids))));
+      gases))));
 
 
 
