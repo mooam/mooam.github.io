@@ -42,7 +42,7 @@ const Liquid = React.createClass({ displayName: "Liquid",
 
     return /*#__PURE__*/(
       React.createElement("div", null, /*#__PURE__*/
-      
+      React.createElement("p", null, "ที่อุณภูมิ ", this.props.temperature, "\xB0C, ", /*#__PURE__*/React.createElement("span", { className: "label label-info" }, this.props.config.name), " อยู่ในสถานะ \"", stateOfMatter,"\"")));
 
 
   } });
